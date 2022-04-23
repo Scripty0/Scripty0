@@ -209,9 +209,9 @@ end)
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window  = Library.CreateLib("Script By Loli#4166 ", "Ocean")
-local Tab     = Window:NewTab("Main Scripts")
-local Section = Tab:NewSection("compra n NFTS com cash!")
+local Window  = Library.CreateLib("Script By Loli#4166 ", "DarkTheme")
+local Tab     = Window:NewTab("NFT Buyer")
+local Section = Tab:NewSection("Buy NFT With Game Money!")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 	local args = {
 		[1] = "Trading Ben"
@@ -234,9 +234,9 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
 
-local Tab     = Window:NewTab("Inf cash")
-local Section = Tab:NewSection("shadow Hub")
-Section:NewButton("dupe the banana ", "Buy item dupe cash (click every 1 second)", function()
+local Tab     = Window:NewTab("Duper")
+local Section = Tab:NewSection("Made by Loli#4166")
+Section:NewButton("Dupe the banana ", "Buy item dupe cash (click every 1 second)", function()
 	local args = {
 		[1] = "The banana"
 	}

@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window  = Library.CreateLib("Script By Loli#4166 ", "DarkTheme")
 local Tab     = Window:NewTab("Main Scripts")
-local Section = Tab:NewSection("compra n NFTS com cash!")
+local Section = Tab:NewSection("Buy Nft With Game Cash")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 	local args = {
 		[1] = "Trading Ben"
@@ -25,7 +25,7 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 end)
 
 
-local Tab     = Window:NewTab("Inf cash")
+local Tab     = Window:NewTab("Duper")
 local Section = Tab:NewSection("(Click every 0.5 seconds to avoid losing cash)")
 Section:NewButton("dupe the banana ", "Buy item dupe cash (click every 1 second)", function()
 	local args = {

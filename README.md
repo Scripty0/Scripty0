@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window  = Library.CreateLib("Script By Loli#4166 ", "DarkTheme")
-local Tab     = Window:NewTab("Main Scripts")
+local Tab     = Window:NewTab("NFT Buyer")
 local Section = Tab:NewSection("Buy Nft With Game Cash")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 	local args = {

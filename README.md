@@ -235,7 +235,7 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 end)
 
 local Tab     = Window:NewTab("Duper")
-local Section = Tab:NewSection("Made by Loli#4166")
+local Section = Tab:NewSection("Click Every 0.5 sec!")
 Section:NewButton("Dupe the banana ", "Buy item dupe cash (click every 1 second)", function()
 	local args = {
 		[1] = "The banana"

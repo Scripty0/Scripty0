@@ -882,7 +882,7 @@ Section:NewButton("Scam3" , "scam2", function()
 end)
 
 
-local Section = Tab:NewSection("spama ou baixe autoclick")
+local Section = Tab:NewSection("Spam or use auto click")
 Section:NewButton("Crash server", "Crash server", function()
     local args = {
     [1] = "Jet"

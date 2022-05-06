@@ -30,7 +30,7 @@ Section:NewKeybind("Close Tab open Tab", "Close Tab open Tab", Enum.KeyCode.Tab,
 end)
 
 
-local Tab     = Window:NewTab("Dupe (high)")
+local Tab     = Window:NewTab("Dupe (High)")
 local Section = Tab:NewSection("auto dupe")
 
 Section:NewToggle("Auto Dupe Banana {2T Cash Required}"  , "Dupe Banana", function(state)
@@ -303,7 +303,7 @@ end)
     
 end)
                       
-                local Tab     = Window:NewTab("Dupe (low)")
+                local Tab     = Window:NewTab("Dupe (Low)")
                 local Section = Tab:NewSection("Dupe if you reach the TNT go to Dupe last step")
                 
                 

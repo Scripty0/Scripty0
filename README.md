@@ -30,7 +30,7 @@ Section:NewKeybind("Close Tab open Tab", "Close Tab open Tab", Enum.KeyCode.Tab,
 end)
 
 
-local Tab     = Window:NewTab("Dupe last step")
+local Tab     = Window:NewTab("Dupe (high)")
 local Section = Tab:NewSection("auto dupe")
 
 Section:NewToggle("Auto Dupe Banana {2T Cash Required}"  , "Dupe Banana", function(state)
@@ -303,7 +303,7 @@ end)
     
 end)
                       
-                local Tab     = Window:NewTab("Dupe start up")
+                local Tab     = Window:NewTab("Dupe (low)")
                 local Section = Tab:NewSection("Dupe if you reach the TNT go to Dupe last step")
                 
                 
@@ -478,7 +478,7 @@ Section:NewButton("" , "", function()
     
 end)
 
-local Tab     = Window:NewTab("Drop Items")
+local Tab     = Window:NewTab("Fast Drop")
 local Section = Tab:NewSection("Drop stuff (must click to drop)")
 Section:NewButton("Drop The Banana", "Drops The Banana", function()
 	local A_1 = "The banana"

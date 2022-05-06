@@ -1024,8 +1024,8 @@ local Tab     = Window:NewTab("Anti Reaper")
                                                                         
                                                                     end
                                                                 end)
-local Tab     = Window:NewTab("Update Credits")
-                local Section = Tab:NewSection("Made the gui Dragable")
+local Tab     = Window:NewTab("Information")
+                local Section = Tab:NewSection("Made By Loli#4166💥")
 
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()

@@ -416,7 +416,7 @@ end)
                                                         end)
                                                 
 
-                local Tab     = Window:NewTab("Fast Shop")
+                local Tab     = Window:NewTab("Buy Items")
                 local Section = Tab:NewSection("Stuff")
                 Section:NewButton("Buy the banana", "Buy Banana", function()
                     local args = {
@@ -478,7 +478,7 @@ Section:NewButton("" , "", function()
     
 end)
 
-local Tab     = Window:NewTab("Fast Drop")
+local Tab     = Window:NewTab("Drop Items")
 local Section = Tab:NewSection("Drop stuff (must click to drop)")
 Section:NewButton("Drop The Banana", "Drops The Banana", function()
 	local A_1 = "The banana"
@@ -1028,5 +1028,5 @@ local Tab     = Window:NewTab("Information")
                 local Section = Tab:NewSection("Made By Loli#4166💥")
 
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
 --pro
